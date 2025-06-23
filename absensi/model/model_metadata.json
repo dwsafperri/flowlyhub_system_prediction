@@ -10,8 +10,8 @@
     "weather_2"
   ],
   "input_shape": 8,
-  "training_accuracy": 0.9800000190734863,
-  "test_accuracy": 0.9725000262260437,
+  "training_accuracy": 0.9943749904632568,
+  "test_accuracy": 0.9925000071525574,
   "weather_map": {
     "Clear": [
       1,

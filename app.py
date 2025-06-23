@@ -502,19 +502,19 @@ def main():
                        type="primary" if st.session_state.current_page == "About" else "secondary",
                        use_container_width=True):
         st.session_state.current_page = "About"
-        st.rerun()
+        st.experimental_rerun()
     
     if st.sidebar.button("🕒 Absensi", 
                        type="primary" if st.session_state.current_page == "Absensi" else "secondary",
                        use_container_width=True):
         st.session_state.current_page = "Absensi"
-        st.rerun()
+        st.experimental_rerun()
     
     if st.sidebar.button("📦 Stok", 
                        type="primary" if st.session_state.current_page == "Stok" else "secondary",
                        use_container_width=True):
         st.session_state.current_page = "Stok"
-        st.rerun()
+        st.experimental_rerun()
     
     # Get current page from session state
     current_page = st.session_state.current_page
